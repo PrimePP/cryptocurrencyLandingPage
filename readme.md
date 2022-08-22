@@ -19,7 +19,7 @@ This project is a landing page of a crypto currency developers and buyers. It is
 - Personal Learnings in this project 
     - HTML
     - CSS 
-- Deployed on *Netlify*  **[ClickMe]()** 
+- Deployed on *Netlify*  **[ClickMe](https://cryptoenthusiastsyo.netlify.app/)** 
 *** 
 #### About Author
 ![AuthorImage](./circle-profile-pic.png)
