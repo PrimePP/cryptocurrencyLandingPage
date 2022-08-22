@@ -1,0 +1,16 @@
+{
+  "name": "cryptocurrency-landing-page",
+  "version": "2.1.1",
+  "description": "This is Cryptocurrency Landing Page for crypto people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "media-query"
+  ],
+  "author": "Pritam Pal",
+  "license": "ISC"
+}

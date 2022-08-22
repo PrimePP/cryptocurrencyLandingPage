@@ -1,0 +1,805 @@
+*{
+    margin: 0px 0px;
+    font-family: 'Montserrat','Poppins','sans-serif';
+    color: #ffffff;
+}
+
+body{
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    
+    background-color: rgba(0, 0, 0, 0.614);
+    height: 10vh;
+    width: 100vw;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 100px;
+}
+.line{
+    border-left: 2px solid #ffffff;
+    width: 2px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: -40px;
+}
+
+
+.list{
+    margin-top: -30px;
+    margin-left: 300px;
+    list-style:none;
+    font-family: 'Montserrat',sans-serif;
+    cursor: grab;
+}
+
+
+
+.list-item{
+    display: inline;
+    margin-right: 90px;
+}
+
+.list-item:hover{
+    color: #bab9b9;
+}
+
+.button-small{
+    background-color: #BA0CC5;
+    position: relative;
+    left: 1300px;
+    top: -30px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: grab;
+    border: none;
+}
+
+.button-small:hover{
+    background-color: #ffffff;
+    color: #474747;
+}
+
+.hero{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.hero-heading{
+    font-size: 90px;
+    margin-left: 80px;
+}
+.hero-description{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+.button-large{
+    margin-top: 60px;
+    margin-left:350px;
+    background-color: #BA0CC5;
+    border: none;
+    border-radius: 12px;
+    padding: 20px 40px;
+    font-size: 20px;
+    box-shadow: 1px 1px 20px #620f68;
+}
+
+.button-large:hover{
+    background-color: #31185f;
+    box-shadow: 1px 1px 10px #b087b3;
+}
+
+/* Dropdown design */
+#app-select{
+    background-color: transparent;
+}
+
+#app-select{
+    background-color: #281A35;
+    color: #ffffff;
+    cursor: grab;
+    border: none;
+    font-size: 17px;
+    margin-top: -3px;
+    padding: 2px 0px;
+}
+
+.line-menu{
+    width:30px;
+    position: relative;
+    display: none;
+}
+
+/* ----------------------------------------
+CODE FOR MOBILE TABLET RESPONSIVENESS
+----------------------------------------
+---------------------------------------- */
+
+/* Tablet Responsiveness */
+
+@media screen and (max-width:1250px){
+    .list-item{
+        display: inline;
+        margin-right: 40px;
+    }
+    
+    .list-item:hover{
+        color: #bab9b9;
+    }
+    .list{
+        margin-top: -30px;
+        margin-left: 230px;
+        list-style:none;
+        font-family: 'Montserrat',sans-serif;
+        cursor: grab;
+    }
+    .line{
+        border-left: 2px solid #ffffff;
+        width: 2px;
+        height: 40px;
+        margin-left: 180px;
+        margin-top: -40px;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        position: relative;
+        left: 85%;
+        top: -35px;
+        padding: 8px 25px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 70px;
+        margin:0px auto;
+    }
+    .hero-description{
+        font-size: 15px;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 60px;
+        margin-left: 25%;
+        margin-right: auto;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 20px 40px;
+        font-size: 20px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+@media screen and (max-width:1150px) and (min-width:1000px) {
+    .list-item{
+        display: inline;
+        margin-right: 30px;
+        font-size: 15px;
+    }
+    
+    .list-item:hover{
+        color: #bab9b9;
+    }
+    .list{
+        margin-top: -30px;
+        margin-left: 200px;
+        list-style:none;
+        font-family: 'Montserrat',sans-serif;
+        cursor: grab;
+    }
+    .line{
+        border-left: 2px solid #ffffff;
+        width: 2px;
+        height: 40px;
+        margin-left: 170px;
+        margin-top: -40px;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        position: relative;
+        left: 85%;
+        top: -30px;
+        padding: 5px 20px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 60px;
+        margin:0px auto;
+    }
+    .hero-description{
+        font-size: 14px;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 60px;
+        margin-left: 20%;
+        margin-right: auto;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 20px 40px;
+        font-size: 20px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+ 
+@media screen and (max-width:999px) and (min-width:810px){
+    body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 14px;
+        position: relative;
+        left: 430px;
+        top: 400px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 50px;
+        margin:0px auto;
+    }
+    .hero-description{
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        margin-left:5%;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 120px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 14px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+
+/* Tablet Screen */
+@media screen and (max-width:848px) and (min-width:700px){
+    body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 14px;
+        position: relative;
+        left: 380px;
+        top: 360px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 35px;
+        
+    }
+    .hero-description{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 14px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+@media screen and (max-width:699px) and (min-width:610px){
+
+ body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+    .hero{
+        margin-left: 150px;
+        margin-right: auto;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 14px;
+        position: relative;
+        left: 250px;
+        top: 360px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 35px;
+        
+    }
+    .hero-description{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 14px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+@media screen and (max-width:609px) and (min-width:490px){
+    body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+    .hero{
+        margin-left: 120px;
+        margin-right: auto;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 14px;
+        position: relative;
+        left: 220px;
+        top: 360px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 35px;
+        
+    }
+    .hero-description{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 14px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+@media screen and (max-width:490px) and (min-width:347px){
+    body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+    .hero{
+        margin-left: 80px;
+        margin-right: auto;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 10px;
+        position: relative;
+        left: 140px;
+        top: 360px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 28px;
+        
+    }
+    .hero-description{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 10px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+
+@media screen and (max-width:348px){
+    body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+    .hero{
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 10px;
+        position: relative;
+        left: 100px;
+        top: 380px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 28px;
+        
+    }
+    .hero-description{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 10px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+@media screen and (max-width:308px){
+    body{
+        background-image: url('./assets/bg.png');
+        background-size: 100% 300%;
+        background-position: 0%;
+        background-repeat: no-repeat;
+    }
+    .list-item{
+        display: none;
+    }
+    
+    .line{
+       display: none;
+    }
+    .line-menu{
+       display: inline;
+       position: absolute;
+       right: 20px;
+        top: 20px;
+    }
+    .hero{
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 10px;
+        position: relative;
+        left: 100px;
+        top: 400px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+
+    .hero-heading{
+        font-size: 28px;
+        
+    }
+    .hero-description{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .button-large{
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 10px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
+
+@media screen and (max-width:268px){
+    .button-small{
+        background-color: #BA0CC5;
+        font-size: 10px;
+        position: relative;
+        left: 75px;
+        top: 420px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: grab;
+        border: none;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-small:hover{
+        background-color: #ffffff;
+        color: #474747;
+    }
+    .button-large{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        background-color: #BA0CC5;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 40px;
+        font-size: 10px;
+        box-shadow: 1px 1px 20px #620f68;
+    }
+    
+    .button-large:hover{
+        background-color: #31185f;
+        box-shadow: 1px 1px 10px #b087b3;
+    }
+}
