@@ -6,8 +6,11 @@
 ***
 ### Project details
 This project is a landing page of a crypto currency developers and buyers. It is a purely responsive design , created for Desktop , mobile , and tablet usage. Only UI is developed for this project for this project, functionality is not .
-
-
+Screen sizes
+- Mobile(320px)
+- Tablet(768px)
+- Laptop(Full width)
+- In general all screens
 ***
 ### Other Important Details
 - >Time taken for completion : 4 hours
